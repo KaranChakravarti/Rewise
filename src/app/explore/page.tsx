@@ -6,6 +6,7 @@ import CuratedResources from '@/components/features/CuratedResources';
 import Reasoning from '@/components/features/Reasoning';
 import { FileQuestion, MessagesSquare, Scale, Search, BrainCircuit } from 'lucide-react';
 import type { Metadata } from 'next';
+import { Card } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'Explore Features',
@@ -57,7 +58,20 @@ export default function ExplorePage() {
           <p> Discover the AI-powered learning tools offered by ReWise to enhance your study experience. </p>
         </p>
         <p className="text-muted-foreground md:text-lg">
+          <Card className="p-4 bg-secondary/50 border-0"><a href="https://debate-ai-lemon-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
+            Visit The Debate AI App
+            </a>
+            
+          </Card>
+          <Card className="p-4 bg-secondary/50 border-0"><a href="https://qwizgame-iad6.vercel.app/" target="_blank" rel="noopener noreferrer">
+            Visit The QuizWiz App
+            </a>
+            
+          </Card>
           
+        </p>
+        <p className="text-muted-foreground md:text-lg">
+          Check out the full applications for some of these features:
           <a href="https://debate-ai-lemon-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
             Visit The Debate AI App
             </a><br/>
