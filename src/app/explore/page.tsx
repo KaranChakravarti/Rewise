@@ -55,9 +55,9 @@ export default function ExplorePage() {
         </h1>
         <p className="text-muted-foreground md:text-lg">
           <p> Explore our tools </p>
-          <p> Discover the AI-powered learning tools offered by ReWise to enhance your study experience. </p>
+          
         </p>
-        <p className="text-muted-foreground md:text-lg">
+        <div className="text-muted-foreground md:text-lg">
           <Card className="p-4 bg-secondary/50 border-0"><a href="https://debate-ai-lemon-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
             Visit The Debate AI App
             </a>
@@ -68,8 +68,13 @@ export default function ExplorePage() {
             </a>
             
           </Card>
+          <Card className="p-4 bg-secondary/50 border-0"><a href="https://resume-maker-lyart-chi.vercel.app/" target="_blank" rel="noopener noreferrer">
+            Visit The Resume Maker With AI App
+            </a>
+            
+          </Card>
           
-        </p>
+        </div>
         <p className="text-muted-foreground md:text-lg">
           Check out the full applications for some of these features:
           <a href="https://debate-ai-lemon-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
