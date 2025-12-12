@@ -53,10 +53,10 @@ export default function ExplorePage() {
         <h1 className="text-4xl font-bold tracking-tighter md:text-5xl">
           Explore Our Tools
         </h1>
-        <p className="text-muted-foreground md:text-lg">
+        <div className="text-muted-foreground md:text-lg">
           <p> Explore our tools </p>
           
-        </p>
+        </div>
         <div className="text-muted-foreground md:text-lg">
           <Card className="p-4 bg-secondary/50 border-0"><a href="https://debate-ai-lemon-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
             Visit The Debate AI App

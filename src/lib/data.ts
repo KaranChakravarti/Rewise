@@ -76,8 +76,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: 'vidhyadhar',
-    name: 'Vidhyadhar',
-    role: 'Management',
+    name: 'Daniel',
+    role: 'Documentary',
     githubUrl: 'https://github.com/NAVATHVIDYADHAR12',
     portfolioUrl: 'https://nutrigenius.vercel.app',
   },
@@ -112,7 +112,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 'saleem',
     name: 'Saleem',
-    role: 'Developer',
+    role: 'Team Management',
     githubUrl: 'https://github.com/saleem',
     portfolioUrl: 'https://saleem-portfolio.vercel.app',
   },
